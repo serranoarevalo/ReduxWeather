@@ -24,7 +24,7 @@ class WeatherList extends React.Component {
 
     	return (
     		<tr key={name}>
-    			<td className="map" style={divStyle}><GoogleMap lon={lon} lat={lat} /></td>
+    			<td style={divStyle}><GoogleMap lon={lon} lat={lat} /></td>
     			<td>
     				<Chart data={temps} color="red" units="K"/>
     			</td>
